@@ -1,0 +1,39 @@
+main {
+    position: relative;
+}
+
+div {
+
+}
+
+.p-static {
+    position: static;
+    /* top, bottom, left e right */
+    height: 5rem;
+    top: 10rem;
+    left: 50%;
+}
+
+.p-relative {
+    position: relative;
+    top: -2rem;
+    margin: 0 4rem;
+}
+
+.p-absolute {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.p-fixed {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+}
+
+.p-sticky {
+    position: sticky;
+    top: 0;
+
+}
